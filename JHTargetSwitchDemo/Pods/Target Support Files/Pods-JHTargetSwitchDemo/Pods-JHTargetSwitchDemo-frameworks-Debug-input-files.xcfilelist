@@ -1,0 +1,8 @@
+${PODS_ROOT}/Target Support Files/Pods-JHTargetSwitchDemo/Pods-JHTargetSwitchDemo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AvoidCrash-Haomissyou/AvoidCrash_Haomissyou.framework
+${BUILT_PRODUCTS_DIR}/JHTargetSwitch/JHTargetSwitch.framework
+${BUILT_PRODUCTS_DIR}/MMPopupView_Haomissyou/MMPopupView_Haomissyou.framework
+${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework
+${BUILT_PRODUCTS_DIR}/Okidoki-TargetCN/Okidoki.framework
+${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework
+${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework

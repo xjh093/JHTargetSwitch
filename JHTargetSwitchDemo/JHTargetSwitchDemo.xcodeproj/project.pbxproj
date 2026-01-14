@@ -1,0 +1,863 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A5B56D3EA215F66A23D553C /* Pods_JHTargetSwitchDemoEN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 113674E2FE383BB8156E6FE0 /* Pods_JHTargetSwitchDemoEN.framework */; };
+		3F2C560B2F164946006925B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2C55FE2F164946006925B5 /* AppDelegate.m */; };
+		3F2C560C2F164946006925B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2C56032F164946006925B5 /* main.m */; };
+		3F2C560D2F164946006925B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2C56092F164946006925B5 /* ViewController.m */; };
+		3F2C560E2F164946006925B5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2C56072F164946006925B5 /* SceneDelegate.m */; };
+		3F2C560F2F164946006925B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2C56052F164946006925B5 /* Main.storyboard */; };
+		3F2C56102F164946006925B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2C56022F164946006925B5 /* LaunchScreen.storyboard */; };
+		3F2C56122F164946006925B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F2C55FF2F164946006925B5 /* Assets.xcassets */; };
+		3F2C56152F16495B006925B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2C55FE2F164946006925B5 /* AppDelegate.m */; };
+		3F2C56162F16495B006925B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2C56032F164946006925B5 /* main.m */; };
+		3F2C56172F16495B006925B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2C56092F164946006925B5 /* ViewController.m */; };
+		3F2C56182F16495B006925B5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2C56072F164946006925B5 /* SceneDelegate.m */; };
+		3F2C561B2F16495B006925B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2C56052F164946006925B5 /* Main.storyboard */; };
+		3F2C561C2F16495B006925B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2C56022F164946006925B5 /* LaunchScreen.storyboard */; };
+		3F2C561E2F16495B006925B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F2C55FF2F164946006925B5 /* Assets.xcassets */; };
+		3F2C56262F164AAB006925B5 /* JHTargetSwitchDemoEN.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F2C56242F164AAB006925B5 /* JHTargetSwitchDemoEN.plist */; };
+		3F2C562A2F172D0B006925B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2C55FE2F164946006925B5 /* AppDelegate.m */; };
+		3F2C562B2F172D0B006925B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2C56032F164946006925B5 /* main.m */; };
+		3F2C562C2F172D0B006925B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2C56092F164946006925B5 /* ViewController.m */; };
+		3F2C562D2F172D0B006925B5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2C56072F164946006925B5 /* SceneDelegate.m */; };
+		3F2C56312F172D0B006925B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2C56052F164946006925B5 /* Main.storyboard */; };
+		3F2C56322F172D0B006925B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2C56022F164946006925B5 /* LaunchScreen.storyboard */; };
+		3F2C56332F172D0B006925B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F2C55FF2F164946006925B5 /* Assets.xcassets */; };
+		3F2C563C2F172D81006925B5 /* JHTargetSwitchDemoJP.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F2C563A2F172D81006925B5 /* JHTargetSwitchDemoJP.plist */; };
+		3F2C565E2F1742E9006925B5 /* CNButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2C565C2F1742E9006925B5 /* CNButton.m */; };
+		3F2C56652F174407006925B5 /* ENButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2C56642F174407006925B5 /* ENButton.m */; };
+		3F2C56682F1744A0006925B5 /* JPButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2C56672F1744A0006925B5 /* JPButton.m */; };
+		440EAFEB192694B7E3ECD26C /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		746056A2401F8494EB7ED03B /* Pods_JHTargetSwitchDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B5E76CDC94AB446E03ACB2F /* Pods_JHTargetSwitchDemo.framework */; };
+		AA73E7158556D18D23D93DD0 /* Pods_JHTargetSwitchDemoJP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C74EA12E3D48566297D671 /* Pods_JHTargetSwitchDemoJP.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B5E76CDC94AB446E03ACB2F /* Pods_JHTargetSwitchDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JHTargetSwitchDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		113674E2FE383BB8156E6FE0 /* Pods_JHTargetSwitchDemoEN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JHTargetSwitchDemoEN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F0B771981ABBF5E0F87ED4 /* Pods-JHTargetSwitchDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHTargetSwitchDemo.release.xcconfig"; path = "Target Support Files/Pods-JHTargetSwitchDemo/Pods-JHTargetSwitchDemo.release.xcconfig"; sourceTree = "<group>"; };
+		3F2C55E02F164863006925B5 /* JHTargetSwitchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JHTargetSwitchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F2C55FD2F164946006925B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F2C55FE2F164946006925B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F2C55FF2F164946006925B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F2C56002F164946006925B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F2C56012F164946006925B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F2C56032F164946006925B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F2C56042F164946006925B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F2C56062F164946006925B5 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		3F2C56072F164946006925B5 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		3F2C56082F164946006925B5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F2C56092F164946006925B5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F2C56222F16495B006925B5 /* JHTargetSwitchDemoEN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JHTargetSwitchDemoEN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F2C56242F164AAB006925B5 /* JHTargetSwitchDemoEN.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = JHTargetSwitchDemoEN.plist; sourceTree = "<group>"; };
+		3F2C56382F172D0B006925B5 /* JHTargetSwitchDemoJP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JHTargetSwitchDemoJP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F2C563A2F172D81006925B5 /* JHTargetSwitchDemoJP.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = JHTargetSwitchDemoJP.plist; sourceTree = "<group>"; };
+		3F2C565B2F1742E9006925B5 /* CNButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNButton.h; sourceTree = "<group>"; };
+		3F2C565C2F1742E9006925B5 /* CNButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNButton.m; sourceTree = "<group>"; };
+		3F2C56632F174407006925B5 /* ENButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENButton.h; sourceTree = "<group>"; };
+		3F2C56642F174407006925B5 /* ENButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENButton.m; sourceTree = "<group>"; };
+		3F2C56662F1744A0006925B5 /* JPButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPButton.h; sourceTree = "<group>"; };
+		3F2C56672F1744A0006925B5 /* JPButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPButton.m; sourceTree = "<group>"; };
+		55C74EA12E3D48566297D671 /* Pods_JHTargetSwitchDemoJP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JHTargetSwitchDemoJP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BE97DE22F81CBD4A05C0868 /* Pods-JHTargetSwitchDemoJP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHTargetSwitchDemoJP.release.xcconfig"; path = "Target Support Files/Pods-JHTargetSwitchDemoJP/Pods-JHTargetSwitchDemoJP.release.xcconfig"; sourceTree = "<group>"; };
+		82A877A9F5B20A6534D6BCE1 /* Pods-JHTargetSwitchDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHTargetSwitchDemo.debug.xcconfig"; path = "Target Support Files/Pods-JHTargetSwitchDemo/Pods-JHTargetSwitchDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8F9C15DCCAD839CBA20F0E1E /* Pods-JHTargetSwitchDemoEN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHTargetSwitchDemoEN.release.xcconfig"; path = "Target Support Files/Pods-JHTargetSwitchDemoEN/Pods-JHTargetSwitchDemoEN.release.xcconfig"; sourceTree = "<group>"; };
+		DF45509D195A19A6A0D5C720 /* Pods-JHTargetSwitchDemoJP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHTargetSwitchDemoJP.debug.xcconfig"; path = "Target Support Files/Pods-JHTargetSwitchDemoJP/Pods-JHTargetSwitchDemoJP.debug.xcconfig"; sourceTree = "<group>"; };
+		F0BA4E8B8A0DB0DF8ACB3762 /* Pods-JHTargetSwitchDemoEN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHTargetSwitchDemoEN.debug.xcconfig"; path = "Target Support Files/Pods-JHTargetSwitchDemoEN/Pods-JHTargetSwitchDemoEN.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F2C55DD2F164863006925B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				440EAFEB192694B7E3ECD26C /* (null) in Frameworks */,
+				746056A2401F8494EB7ED03B /* Pods_JHTargetSwitchDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F2C56192F16495B006925B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A5B56D3EA215F66A23D553C /* Pods_JHTargetSwitchDemoEN.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F2C562E2F172D0B006925B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA73E7158556D18D23D93DD0 /* Pods_JHTargetSwitchDemoJP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F2C55D72F164862006925B5 = {
+			isa = PBXGroup;
+			children = (
+				3F2C560A2F164946006925B5 /* JHTargetSwitchDemo */,
+				3F2C55E12F164863006925B5 /* Products */,
+				89BB9FDF19461DFC43CD2A6F /* Pods */,
+				D1DF0C8D7BF18DD20AB826A5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3F2C55E12F164863006925B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F2C55E02F164863006925B5 /* JHTargetSwitchDemo.app */,
+				3F2C56222F16495B006925B5 /* JHTargetSwitchDemoEN.app */,
+				3F2C56382F172D0B006925B5 /* JHTargetSwitchDemoJP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F2C560A2F164946006925B5 /* JHTargetSwitchDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3F2C565D2F1742E9006925B5 /* CN */,
+				3F2C563B2F172D81006925B5 /* JP */,
+				3F2C56252F164AAB006925B5 /* EN */,
+				3F2C55FD2F164946006925B5 /* AppDelegate.h */,
+				3F2C55FE2F164946006925B5 /* AppDelegate.m */,
+				3F2C55FF2F164946006925B5 /* Assets.xcassets */,
+				3F2C56002F164946006925B5 /* Info.plist */,
+				3F2C56022F164946006925B5 /* LaunchScreen.storyboard */,
+				3F2C56032F164946006925B5 /* main.m */,
+				3F2C56052F164946006925B5 /* Main.storyboard */,
+				3F2C56062F164946006925B5 /* SceneDelegate.h */,
+				3F2C56072F164946006925B5 /* SceneDelegate.m */,
+				3F2C56082F164946006925B5 /* ViewController.h */,
+				3F2C56092F164946006925B5 /* ViewController.m */,
+			);
+			path = JHTargetSwitchDemo;
+			sourceTree = "<group>";
+		};
+		3F2C56252F164AAB006925B5 /* EN */ = {
+			isa = PBXGroup;
+			children = (
+				3F2C56632F174407006925B5 /* ENButton.h */,
+				3F2C56642F174407006925B5 /* ENButton.m */,
+				3F2C56242F164AAB006925B5 /* JHTargetSwitchDemoEN.plist */,
+			);
+			path = EN;
+			sourceTree = "<group>";
+		};
+		3F2C563B2F172D81006925B5 /* JP */ = {
+			isa = PBXGroup;
+			children = (
+				3F2C563A2F172D81006925B5 /* JHTargetSwitchDemoJP.plist */,
+				3F2C56662F1744A0006925B5 /* JPButton.h */,
+				3F2C56672F1744A0006925B5 /* JPButton.m */,
+			);
+			path = JP;
+			sourceTree = "<group>";
+		};
+		3F2C565D2F1742E9006925B5 /* CN */ = {
+			isa = PBXGroup;
+			children = (
+				3F2C565B2F1742E9006925B5 /* CNButton.h */,
+				3F2C565C2F1742E9006925B5 /* CNButton.m */,
+			);
+			path = CN;
+			sourceTree = "<group>";
+		};
+		89BB9FDF19461DFC43CD2A6F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82A877A9F5B20A6534D6BCE1 /* Pods-JHTargetSwitchDemo.debug.xcconfig */,
+				18F0B771981ABBF5E0F87ED4 /* Pods-JHTargetSwitchDemo.release.xcconfig */,
+				F0BA4E8B8A0DB0DF8ACB3762 /* Pods-JHTargetSwitchDemoEN.debug.xcconfig */,
+				8F9C15DCCAD839CBA20F0E1E /* Pods-JHTargetSwitchDemoEN.release.xcconfig */,
+				DF45509D195A19A6A0D5C720 /* Pods-JHTargetSwitchDemoJP.debug.xcconfig */,
+				6BE97DE22F81CBD4A05C0868 /* Pods-JHTargetSwitchDemoJP.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D1DF0C8D7BF18DD20AB826A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				113674E2FE383BB8156E6FE0 /* Pods_JHTargetSwitchDemoEN.framework */,
+				55C74EA12E3D48566297D671 /* Pods_JHTargetSwitchDemoJP.framework */,
+				0B5E76CDC94AB446E03ACB2F /* Pods_JHTargetSwitchDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F2C55DF2F164863006925B5 /* JHTargetSwitchDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F2C55F82F164863006925B5 /* Build configuration list for PBXNativeTarget "JHTargetSwitchDemo" */;
+			buildPhases = (
+				AFAFB4CFC930A11D3DFBCA7D /* [CP] Check Pods Manifest.lock */,
+				3F2C55DC2F164863006925B5 /* Sources */,
+				3F2C55DD2F164863006925B5 /* Frameworks */,
+				3F2C55DE2F164863006925B5 /* Resources */,
+				7B1305D804EFBA63E206B25D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JHTargetSwitchDemo;
+			productName = JHTargetSwitchDemo;
+			productReference = 3F2C55E02F164863006925B5 /* JHTargetSwitchDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F2C56132F16495B006925B5 /* JHTargetSwitchDemoEN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F2C561F2F16495B006925B5 /* Build configuration list for PBXNativeTarget "JHTargetSwitchDemoEN" */;
+			buildPhases = (
+				6295CB79E4324974A7D97F75 /* [CP] Check Pods Manifest.lock */,
+				3F2C56142F16495B006925B5 /* Sources */,
+				3F2C56192F16495B006925B5 /* Frameworks */,
+				3F2C561A2F16495B006925B5 /* Resources */,
+				8A86DEDD1B3E530DA50651A8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JHTargetSwitchDemoEN;
+			productName = JHTargetSwitchDemo;
+			productReference = 3F2C56222F16495B006925B5 /* JHTargetSwitchDemoEN.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F2C56272F172D0B006925B5 /* JHTargetSwitchDemoJP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F2C56352F172D0B006925B5 /* Build configuration list for PBXNativeTarget "JHTargetSwitchDemoJP" */;
+			buildPhases = (
+				3F2C56282F172D0B006925B5 /* [CP] Check Pods Manifest.lock */,
+				3F2C56292F172D0B006925B5 /* Sources */,
+				3F2C562E2F172D0B006925B5 /* Frameworks */,
+				3F2C56302F172D0B006925B5 /* Resources */,
+				3F2C56342F172D0B006925B5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JHTargetSwitchDemoJP;
+			productName = JHTargetSwitchDemo;
+			productReference = 3F2C56382F172D0B006925B5 /* JHTargetSwitchDemoJP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F2C55D82F164862006925B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					3F2C55DF2F164863006925B5 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 3F2C55DB2F164862006925B5 /* Build configuration list for PBXProject "JHTargetSwitchDemo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F2C55D72F164862006925B5;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3F2C55E12F164863006925B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F2C55DF2F164863006925B5 /* JHTargetSwitchDemo */,
+				3F2C56132F16495B006925B5 /* JHTargetSwitchDemoEN */,
+				3F2C56272F172D0B006925B5 /* JHTargetSwitchDemoJP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F2C55DE2F164863006925B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2C560F2F164946006925B5 /* Main.storyboard in Resources */,
+				3F2C56102F164946006925B5 /* LaunchScreen.storyboard in Resources */,
+				3F2C56122F164946006925B5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F2C561A2F16495B006925B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2C561B2F16495B006925B5 /* Main.storyboard in Resources */,
+				3F2C561C2F16495B006925B5 /* LaunchScreen.storyboard in Resources */,
+				3F2C56262F164AAB006925B5 /* JHTargetSwitchDemoEN.plist in Resources */,
+				3F2C561E2F16495B006925B5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F2C56302F172D0B006925B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2C56312F172D0B006925B5 /* Main.storyboard in Resources */,
+				3F2C56322F172D0B006925B5 /* LaunchScreen.storyboard in Resources */,
+				3F2C563C2F172D81006925B5 /* JHTargetSwitchDemoJP.plist in Resources */,
+				3F2C56332F172D0B006925B5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F2C56282F172D0B006925B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JHTargetSwitchDemoJP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F2C56342F172D0B006925B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JHTargetSwitchDemoJP/Pods-JHTargetSwitchDemoJP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JHTargetSwitchDemoJP/Pods-JHTargetSwitchDemoJP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JHTargetSwitchDemoJP/Pods-JHTargetSwitchDemoJP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6295CB79E4324974A7D97F75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JHTargetSwitchDemoEN-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B1305D804EFBA63E206B25D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JHTargetSwitchDemo/Pods-JHTargetSwitchDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JHTargetSwitchDemo/Pods-JHTargetSwitchDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JHTargetSwitchDemo/Pods-JHTargetSwitchDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A86DEDD1B3E530DA50651A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JHTargetSwitchDemoEN/Pods-JHTargetSwitchDemoEN-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JHTargetSwitchDemoEN/Pods-JHTargetSwitchDemoEN-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JHTargetSwitchDemoEN/Pods-JHTargetSwitchDemoEN-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFAFB4CFC930A11D3DFBCA7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JHTargetSwitchDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F2C55DC2F164863006925B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2C560B2F164946006925B5 /* AppDelegate.m in Sources */,
+				3F2C565E2F1742E9006925B5 /* CNButton.m in Sources */,
+				3F2C560C2F164946006925B5 /* main.m in Sources */,
+				3F2C560D2F164946006925B5 /* ViewController.m in Sources */,
+				3F2C560E2F164946006925B5 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F2C56142F16495B006925B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2C56652F174407006925B5 /* ENButton.m in Sources */,
+				3F2C56152F16495B006925B5 /* AppDelegate.m in Sources */,
+				3F2C56162F16495B006925B5 /* main.m in Sources */,
+				3F2C56172F16495B006925B5 /* ViewController.m in Sources */,
+				3F2C56182F16495B006925B5 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F2C56292F172D0B006925B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2C562A2F172D0B006925B5 /* AppDelegate.m in Sources */,
+				3F2C56682F1744A0006925B5 /* JPButton.m in Sources */,
+				3F2C562B2F172D0B006925B5 /* main.m in Sources */,
+				3F2C562C2F172D0B006925B5 /* ViewController.m in Sources */,
+				3F2C562D2F172D0B006925B5 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F2C56022F164946006925B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F2C56012F164946006925B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3F2C56052F164946006925B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F2C56042F164946006925B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F2C55F92F164863006925B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82A877A9F5B20A6534D6BCE1 /* Pods-JHTargetSwitchDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 4YWGN55BE7;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JHTargetSwitchDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haocold.JHTargetSwitchDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = haocold_dev_20260313;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F2C55FA2F164863006925B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18F0B771981ABBF5E0F87ED4 /* Pods-JHTargetSwitchDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 4YWGN55BE7;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JHTargetSwitchDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haocold.JHTargetSwitchDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = haocold_dev_20260313;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F2C55FB2F164863006925B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F2C55FC2F164863006925B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F2C56202F16495B006925B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0BA4E8B8A0DB0DF8ACB3762 /* Pods-JHTargetSwitchDemoEN.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 4YWGN55BE7;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JHTargetSwitchDemo/EN/JHTargetSwitchDemoEN.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haocold.JHTargetSwitchDemoEN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = haocold_dev_20260313;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F2C56212F16495B006925B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F9C15DCCAD839CBA20F0E1E /* Pods-JHTargetSwitchDemoEN.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 4YWGN55BE7;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JHTargetSwitchDemo/EN/JHTargetSwitchDemoEN.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haocold.JHTargetSwitchDemoEN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = haocold_dev_20260313;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F2C56362F172D0B006925B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF45509D195A19A6A0D5C720 /* Pods-JHTargetSwitchDemoJP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 4YWGN55BE7;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JHTargetSwitchDemo/JP/JHTargetSwitchDemoJP.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haocold.JHTargetSwitchDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = haocold_dev_20260313;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F2C56372F172D0B006925B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BE97DE22F81CBD4A05C0868 /* Pods-JHTargetSwitchDemoJP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 4YWGN55BE7;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JHTargetSwitchDemo/JP/JHTargetSwitchDemoJP.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haocold.JHTargetSwitchDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = haocold_dev_20260313;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F2C55DB2F164862006925B5 /* Build configuration list for PBXProject "JHTargetSwitchDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F2C55FB2F164863006925B5 /* Debug */,
+				3F2C55FC2F164863006925B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F2C55F82F164863006925B5 /* Build configuration list for PBXNativeTarget "JHTargetSwitchDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F2C55F92F164863006925B5 /* Debug */,
+				3F2C55FA2F164863006925B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F2C561F2F16495B006925B5 /* Build configuration list for PBXNativeTarget "JHTargetSwitchDemoEN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F2C56202F16495B006925B5 /* Debug */,
+				3F2C56212F16495B006925B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F2C56352F172D0B006925B5 /* Build configuration list for PBXNativeTarget "JHTargetSwitchDemoJP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F2C56362F172D0B006925B5 /* Debug */,
+				3F2C56372F172D0B006925B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F2C55D82F164862006925B5 /* Project object */;
+}

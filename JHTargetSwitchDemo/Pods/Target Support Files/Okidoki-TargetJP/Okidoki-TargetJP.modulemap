@@ -1,0 +1,6 @@
+framework module Okidoki {
+  umbrella header "Okidoki-TargetJP-umbrella.h"
+
+  export *
+  module * { export * }
+}

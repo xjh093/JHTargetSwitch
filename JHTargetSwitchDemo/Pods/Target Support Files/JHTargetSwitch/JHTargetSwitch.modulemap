@@ -1,0 +1,6 @@
+framework module JHTargetSwitch {
+  umbrella header "JHTargetSwitch-umbrella.h"
+
+  export *
+  module * { export * }
+}

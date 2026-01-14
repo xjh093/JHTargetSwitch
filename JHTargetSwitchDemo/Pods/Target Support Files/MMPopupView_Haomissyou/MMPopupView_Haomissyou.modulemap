@@ -1,0 +1,6 @@
+framework module MMPopupView_Haomissyou {
+  umbrella header "MMPopupView_Haomissyou-umbrella.h"
+
+  export *
+  module * { export * }
+}

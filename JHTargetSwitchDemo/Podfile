@@ -1,0 +1,43 @@
+platform :ios, '14.0'
+
+# 公共库
+def common_pods
+    pod 'YYModel'
+    pod 'ReactiveObjC'
+    pod 'AvoidCrash-Haomissyou'
+    pod 'MMPopupView_Haomissyou'
+    
+    pod 'JHTargetSwitch', :path => 'Lib/JHTargetSwitch'
+    
+end
+
+
+target 'JHTargetSwitchDemo' do
+  use_frameworks!
+
+  common_pods
+
+  # 导入对应的子模块
+  pod 'Okidoki', :path => 'Lib/Okidoki', :subspecs => ['TargetCN']
+
+end
+
+
+target 'JHTargetSwitchDemoEN' do
+  use_frameworks!
+
+  common_pods
+  
+  # 导入对应的子模块
+  pod 'Okidoki', :path => 'Lib/Okidoki', :subspecs => ['TargetEN']
+end
+
+
+target 'JHTargetSwitchDemoJP' do
+  use_frameworks!
+
+  common_pods
+  
+  # 导入对应的子模块
+  pod 'Okidoki', :path => 'Lib/Okidoki', :subspecs => ['TargetJP']
+end

@@ -1,0 +1,20 @@
+{
+  "name": "JHTargetSwitch",
+  "version": "0.1.0",
+  "summary": "Object-C Target Switch Manager.",
+  "description": "Object-C Target Switch Manager. 666",
+  "homepage": "https://github.com/xjh093/JHTargetSwitch",
+  "license": "MIT",
+  "authors": {
+    "Haomissyou": "xjh093@126.com"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "git": "https://github.com/xjh093/JHTargetSwitch.git",
+    "tag": "0.1.0"
+  },
+  "source_files": "Classes/**/*.{h,m}",
+  "public_header_files": "Classes/*.h"
+}

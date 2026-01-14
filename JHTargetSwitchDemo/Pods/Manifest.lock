@@ -1,0 +1,48 @@
+PODS:
+  - AvoidCrash-Haomissyou (2.6.1)
+  - JHTargetSwitch (0.1.0)
+  - Masonry (1.1.0)
+  - MMPopupView_Haomissyou (1.7.5):
+    - Masonry
+  - Okidoki/TargetCN (0.0.4)
+  - Okidoki/TargetEN (0.0.4)
+  - Okidoki/TargetJP (0.0.4)
+  - ReactiveObjC (3.1.1)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - AvoidCrash-Haomissyou
+  - JHTargetSwitch (from `Lib/JHTargetSwitch`)
+  - MMPopupView_Haomissyou
+  - Okidoki/TargetCN (from `Lib/Okidoki`)
+  - Okidoki/TargetEN (from `Lib/Okidoki`)
+  - Okidoki/TargetJP (from `Lib/Okidoki`)
+  - ReactiveObjC
+  - YYModel
+
+SPEC REPOS:
+  trunk:
+    - AvoidCrash-Haomissyou
+    - Masonry
+    - MMPopupView_Haomissyou
+    - ReactiveObjC
+    - YYModel
+
+EXTERNAL SOURCES:
+  JHTargetSwitch:
+    :path: Lib/JHTargetSwitch
+  Okidoki:
+    :path: Lib/Okidoki
+
+SPEC CHECKSUMS:
+  AvoidCrash-Haomissyou: 4a72ea87e29e374cd8c1b2603fdd4e78030496ea
+  JHTargetSwitch: abbe0d0e2a17475ceba30d05abb8bf9e3a9d22db
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MMPopupView_Haomissyou: 04a83afa6ccb21575fe07ddf6c0e954005d7b3d9
+  Okidoki: a2e5852ebb726d6765570ba147fa4bb28e8ad405
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 3e88e6ddceda0b39deef20a704ac9a1d97f7312f
+
+COCOAPODS: 1.16.2
